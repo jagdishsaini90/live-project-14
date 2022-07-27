@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.left {
+  width: 35vw;
+  height: 100vh;
+  background-image: url("./images/pexels-rfstudio-3819572.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left left;
+  padding: 70px;
+}
+
+.left img {
+  width: 110px;
+  height: 40px;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-start;
+  height: 100vh;
+  padding: 70px 60px 0 60px;
+  align-items: center;
+  flex-direction: column;
+  width: 65vw;
+  background: #f5f2f0;
+}
+
+.right-level-1,
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.right-level-1 span {
+  width: 300px;
+  height: 2px;
+  background: #000;
+}
+
+.right-level-1 {
+  width: 100%;
+}
+
+.list-item {
+  list-style: none;
+  width: 500px;
+  margin-left: 40px;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-between;
+}
+
+.list-items {
+  color: #949494;
+  font-size: 15px;
+}
+.list-items:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.right-level-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.right-level-2-left {
+  font-size: 4rem;
+}
+
+.right-level-2-left h1 {
+  width: fit-content;
+}
+
+.right-level-2-left h1:first-child {
+  color: #f5f2f0;
+
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000,
+    1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 1px #000;
+}
+
+.right-level-2-left h1:last-child {
+  margin: -120px 0 0 130px;
+  color: #333333;
+}
+
+.right-level-2-mid {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: -130px;
+  color: #949494;
+  font-weight: 300;
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.right-level-2-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px 0 10px 0;
+}
+
+.right-level-2-right i {
+  font-size: 25px;
+  color: #333333;
+}
+
+.right-level-3 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.right-level-3 button {
+  width: 250px;
+  height: 50px;
+  background: #333333;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.right-level-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.right-level-4-left {
+  list-style: none;
+  padding: 0 0 50px 0;
+  border-left: 1px solid #000;
+  border-color: #333333;
+}
+
+.right-level-4-left-item {
+  padding: 0 20px 10px 20px;
+  margin-bottom: 30px;
+  color: #949494;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+.right-level-4-left-item::before,
+.right-level-4-left-item:first-child::after {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  position: absolute;
+  content: "";
+  top: 3px;
+  left: -9px;
+  background: #949494;
+  z-index: 10;
+}
+.right-level-4-left-item:first-child::after {
+  background: #f5f2f0;
+  z-index: 8;
+  top: -1px;
+}
+.right-level-4-left-item:hover {
+  color: #333333;
+  cursor: pointer;
+}
+
+.right-level-4-left-item:hover::before {
+  background: #333333;
+  cursor: pointer;
+}
+
+.right-level-4-left-item:last-child {
+  margin-bottom: 0;
+}
+
+.right-level-4-mid {
+  max-width: 50%;
+}
+
+.right-level-4-mid span {
+  font-size: 6rem;
+}
+.right-level-4-mid p {
+  font-size: 1.1rem;
+  max-width: 100%;
+  margin-top: -40px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.right-level-4-mid img {
+  width: 100%;
+  height: 100%;
+}
+
+.right-level-4-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 50px;
+}
+
+.right-level-4-right p {
+  width: 2px;
+  height: 40%;
+  background: #000;
+  position: relative;
+}
+
+.right-level-4-right p::before,
+.right-level-4-right p::after {
+  position: absolute;
+  content: "";
+  top: 75%;
+  left: 0;
+  height: 25%;
+  width: 2px;
+  background: #000;
+  transform: rotate(45deg);
+  transform-origin: bottom;
+}
+
+.right-level-4-right p::after {
+  transform: rotate(-45deg);
+  transform-origin: bottom;
+}
